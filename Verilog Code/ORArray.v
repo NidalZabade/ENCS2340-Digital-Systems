@@ -1,4 +1,4 @@
-module OR_Array(A,B,C);
+module ORArray(A,B,C);
 input [3:0]A,B;
 output [3:0]C;
 assign C[0]=A[0]|B[0];
